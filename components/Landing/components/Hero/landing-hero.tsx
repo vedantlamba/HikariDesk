@@ -1,6 +1,7 @@
 import { Highlighter } from "@/components/magicui/highlighter";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 import { Safari } from "@/components/magicui/safari";
+import { Heart } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -51,7 +52,12 @@ function LandingHero() {
           href="#"
           className="inline-flex items-center px-6 py-3 rounded-md bg-black text-white text-lg font-medium hover:bg-gray-800 transition-colors"
           > */}
-          <RainbowButton>Get Started</RainbowButton>
+          <RainbowButton>
+            <span className="flex items-center justify-center gap-2">
+              <Heart className="size-4" />
+              Get Started
+            </span>
+          </RainbowButton>
           {/* </a> */}
         </div>
       </section>

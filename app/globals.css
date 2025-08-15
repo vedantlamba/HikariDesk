@@ -45,6 +45,24 @@
   --animate-float-slow: float 4s ease-in-out infinite;
   --animate-float: float 2s ease-in-out infinite;
   --animate-float2: float2 6s ease-in-out infinite;
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  @keyframes marquee {
+  from {
+    transform: translateX(0);
+    }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+    }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
 }
 
 :root {
@@ -149,7 +167,6 @@
   background: #cdc1ff;
   color: white;
 }
-
 
 @keyframes float {
   0% { transform: translateY(0px); }

@@ -34,7 +34,7 @@ export default function LandingNavbar() {
   const id = useId();
 
   return (
-    <header className="border-b px-4 md:px-6 ">
+    <header className="border-b px-4 md:px-6">
       <div className="flex h-20 items-center justify-between gap-4 max-w-6xl mx-auto">
         {/* Left side */}
         <div className="flex flex-1 items-center gap-2">
