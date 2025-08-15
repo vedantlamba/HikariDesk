@@ -59,7 +59,7 @@ function LandingHero() {
         <div className="relative flex justify-center items-center px-4 md:px-0">
           <Safari
             url="magicui.design"
-            className="md:size-1/2 size-full"
+            className="w-full max-w-md md:max-w-none"
             videoSrc="https://videos.pexels.com/video-files/3115209/3115209-uhd_2560_1440_25fps.mp4"
           />
         </div>
