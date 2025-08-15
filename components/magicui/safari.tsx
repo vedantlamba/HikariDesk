@@ -152,13 +152,13 @@ export function Safari({
           <foreignObject
             x="1"
             y="52"
-            width="1200"
-            height="700"
+            width="100%" // ✅ responsive width
+            height="100%" // ✅ responsive height
             preserveAspectRatio="xMidYMid slice"
             clipPath="url(#roundedBottom)"
           >
             <video
-              className="size-full overflow-hidden object-cover"
+              className="w-full h-full object-cover" // fills container without overflow
               src={videoSrc}
               autoPlay
               loop
