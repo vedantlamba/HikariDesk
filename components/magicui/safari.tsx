@@ -158,7 +158,7 @@ export function Safari({
             clipPath="url(#roundedBottom)"
           >
             <video
-              className="w-full h-full object-cover" // fills container without overflow
+              className="w-full h-full object-contain lg:object-cover" // fills container without overflow
               src={videoSrc}
               autoPlay
               loop
