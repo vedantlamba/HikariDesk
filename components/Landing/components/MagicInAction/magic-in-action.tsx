@@ -42,16 +42,17 @@ function MagicInAction() {
             you need them.
           </p>
         </div>
-        <div className="relative w-full h-[250px] lg:w-[600px] md:h-[350px]">
+        <div className="relative w-full h-[250px] md:h-[350px] overflow-hidden rounded-xl">
           <Image
             src="/magicInAction/i2.jpg"
-            alt="Email summary demo"
+            alt="Meeting location demo"
             fill
-            className="object-cover rounded-xl"
+            className="object-cover"
             priority
           />
         </div>
       </div>
+
       {/* Third Section  */}
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-40 max-w-6xl px-4 pb-16 md:pb-32">
         <div className="relative w-full h-[250px] lg:w-[600px] md:h-[350px]">
