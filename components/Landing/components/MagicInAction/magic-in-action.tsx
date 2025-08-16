@@ -3,7 +3,7 @@ import React from "react";
 
 function MagicInAction() {
   return (
-    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden md:py-32">
+    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden md:py-20">
       <h2 className="pb-10 md:pb-20 text-3xl md:text-6xl font-semibold text-center px-2 text-balance">
         See the magic in action!
       </h2>

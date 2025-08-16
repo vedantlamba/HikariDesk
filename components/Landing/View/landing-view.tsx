@@ -3,6 +3,7 @@ import LandingNavbar from "../components/Navbar/landing-navbar";
 import LandingHero from "../components/Hero/landing-hero";
 import TrustedBy from "../components/TrustedBy/trusted-by";
 import MagicInAction from "../components/MagicInAction/magic-in-action";
+import BestFeatures from "../components/BestFeatures/best-featurers";
 
 function LandingView() {
   return (
@@ -18,6 +19,9 @@ function LandingView() {
       </div>
       <div>
         <MagicInAction />
+      </div>
+      <div>
+        <BestFeatures />
       </div>
     </div>
   );
