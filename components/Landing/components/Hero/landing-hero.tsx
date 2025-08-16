@@ -1,6 +1,7 @@
 import { Highlighter } from "@/components/magicui/highlighter";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 import { Safari } from "@/components/magicui/safari";
+import { cn } from "@/lib/utils";
 import { Heart } from "lucide-react";
 import Image from "next/image";
 import React from "react";
@@ -85,10 +86,15 @@ function LandingHero() {
 
 export default LandingHero;
 
-export const GlobalUsers = () => {
+export const GlobalUsers = ({ bgCol }: { bgCol?: string }) => {
   return (
     <div>
-      <div className="inline-flex items-center gap-2 bg-white shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-full px-4 py-2 ">
+      <div
+        className={cn(
+          "inline-flex items-center gap-2 bg-white shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-full px-4 py-2",
+          bgCol
+        )}
+      >
         <div className="flex -space-x-2">
           <img
             src="/icons/p1.jpg"

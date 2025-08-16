@@ -4,6 +4,7 @@ import LandingHero from "../components/Hero/landing-hero";
 import TrustedBy from "../components/TrustedBy/trusted-by";
 import MagicInAction from "../components/MagicInAction/magic-in-action";
 import BestFeatures from "../components/BestFeatures/best-featurers";
+import CustomerReviews from "../components/Reviews/customer-reviews";
 
 function LandingView() {
   return (
@@ -22,6 +23,9 @@ function LandingView() {
       </div>
       <div>
         <BestFeatures />
+      </div>
+      <div>
+        <CustomerReviews />
       </div>
     </div>
   );

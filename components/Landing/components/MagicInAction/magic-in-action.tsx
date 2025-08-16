@@ -8,7 +8,7 @@ function MagicInAction() {
         See the magic in action!
       </h2>
       {/* First Section  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-32 max-w-7xl px-4 pb-16 md:pb-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-40 max-w-6xl px-4 pb-16 md:pb-32">
         <div className="relative w-full h-[250px] lg:w-[600px] md:h-[350px]">
           <Image
             src="/magicInAction/i1.jpg"
@@ -31,7 +31,7 @@ function MagicInAction() {
         </div>
       </div>
       {/* Second Section  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-32 max-w-7xl px-4 pb-16 md:pb-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-40 max-w-6xl px-4 pb-16 md:pb-32">
         <div>
           <h3 className="text-2xl md:text-4xl font-semibold text-gray-900 dark:text-white pb-7 text-balance">
             Find the location of a meeting
@@ -53,7 +53,7 @@ function MagicInAction() {
         </div>
       </div>
       {/* Third Section  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-32 max-w-7xl px-4 pb-16 md:pb-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-40 max-w-6xl px-4 pb-16 md:pb-32">
         <div className="relative w-full h-[250px] lg:w-[600px] md:h-[350px]">
           <Image
             src="/magicInAction/i3.jpg"

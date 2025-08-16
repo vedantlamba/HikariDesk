@@ -13,36 +13,36 @@ function BestFeatures() {
         Your go-to assistant, saves you hours of time
       </h2>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl px-4 gap-4">
-          <div className="md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-5 max-w-6xl px-4 gap-4">
+          <div className="md:col-span-3">
             <img
               src="/magicInAction/i1.jpg"
               alt=""
-              className="w-full h-80 object-cover rounded-xl"
+              className="w-full h-100 object-cover rounded-xl"
             />
           </div>
-          <div>
+          <div className="md:col-span-2">
             <img
               src="/magicInAction/i2.jpg"
               alt=""
-              className="w-full h-80 object-cover rounded-xl"
+              className="w-full h-100 object-cover rounded-xl"
             />
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl px-4 gap-4 mt-4">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-5 max-w-6xl px-4 gap-4 mt-4">
+          <div className="md:col-span-2">
             <img
               src="/magicInAction/i3.jpg"
               alt=""
-              className="w-full h-80 object-cover rounded-xl"
+              className="w-full h-100 object-cover rounded-xl"
             />
           </div>
-          <div className="md:col-span-2">
+          <div className="md:col-span-3">
             <img
               src="/magicInAction/i1.jpg"
               alt=""
-              className="w-full h-80 object-cover rounded-xl"
+              className="w-full h-100 object-cover rounded-xl"
             />
           </div>
         </div>
