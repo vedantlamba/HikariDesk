@@ -65,14 +65,14 @@ function LandingHero() {
         <div className="relative ">
           <div className="hidden lg:flex lg:justify-center lg:items-center px-4 lg:px-0">
             <Safari
-              url="magicui.design"
-              className="size-full md:size-1/2"
+              url="hikaridesk.vedantlamba.com"
+              className="size-full lg:size-1/2"
               videoSrc="https://videos.pexels.com/video-files/3115209/3115209-uhd_2560_1440_25fps.mp4"
             />
           </div>
           <div className="lg:hidden flex justify-center items-center px-4 lg:px-0">
             <Safari
-              url="magicui.design"
+              url="hikaridesk.vedantlamba.com"
               className="size-full"
               imageSrc="https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg"
             />
