@@ -7,12 +7,16 @@ import BestFeatures from "../components/BestFeatures/best-featurers";
 import CustomerReviews from "../components/Reviews/customer-reviews";
 import Pricing from "../components/PricingPlans/landing-pricing";
 import Footer from "../components/Footer/landing-footer";
+import Banner from "../components/Banner/banner";
 
 function LandingView() {
   return (
     <div>
       <div>
         <LandingNavbar />
+      </div>
+      <div>
+        <Banner />
       </div>
       <div>
         <LandingHero />
