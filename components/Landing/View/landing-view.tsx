@@ -5,6 +5,7 @@ import TrustedBy from "../components/TrustedBy/trusted-by";
 import MagicInAction from "../components/MagicInAction/magic-in-action";
 import BestFeatures from "../components/BestFeatures/best-featurers";
 import CustomerReviews from "../components/Reviews/customer-reviews";
+import Pricing from "../components/PricingPlans/landing-pricing";
 
 function LandingView() {
   return (
@@ -26,6 +27,9 @@ function LandingView() {
       </div>
       <div>
         <CustomerReviews />
+      </div>
+      <div>
+        <Pricing />
       </div>
     </div>
   );
